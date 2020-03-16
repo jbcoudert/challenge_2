@@ -64,13 +64,20 @@ body{
 .big_image{
     width: 900px;
     height: 508px;
+<<<<<<< HEAD
     margin:0 auto 38px auto;
+=======
+    margin:auto;
+>>>>>>> 8b7ce93c809c5b6276bc6e9296afe45c426f487d
 }
 .all{
     background-color: white;
     width: 994px;
     margin: auto;
+<<<<<<< HEAD
     padding-bottom: 25px;
+=======
+>>>>>>> 8b7ce93c809c5b6276bc6e9296afe45c426f487d
 
 
 }
@@ -89,6 +96,7 @@ header ul li{
     margin: 25px -1px 25px -1px;
     
 } */
+<<<<<<< HEAD
 .menu li a{
     display: block;
     /* width: 100px; */
@@ -115,12 +123,18 @@ nav{
     height: 59px;
     margin: 25px 0;
 
+=======
+nav{
+    background-color: #fafafa;
+    height: 60px;
+>>>>>>> 8b7ce93c809c5b6276bc6e9296afe45c426f487d
    
 }
 header ul li select{
     background: transparent;
     border: none;
     display: inline-block;
+<<<<<<< HEAD
     margin:23px 52px 0 auto;
 }
 select {
@@ -226,3 +240,12 @@ h3 {
         display: block;
     }
 }
+=======
+    margin-top: 23px;
+    margin-left: 20px;
+
+}
+header ul{
+    margin-left: 30px;
+}
+>>>>>>> 8b7ce93c809c5b6276bc6e9296afe45c426f487d
