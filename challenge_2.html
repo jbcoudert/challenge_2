@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
     <link rel="stylesheet" href="challenge_2.css">
     <title>Document</title>
 </head>
@@ -13,21 +14,22 @@
     <div class="all">
         <header>
             <div class="title">
-                
+
                 <h1>Origami</h1>
+                <i class="fas fa-bars"></i>
                 <img src="images/mag.png" alt="logo" class="search">
                 <p>A content Focused Wordpress Theme</p>
 
             </div>
             <nav>
                 <ul>
-                    <li>
-                        <select name="menu" id="menu">
-                            <option value="">Home Pages</option>
-                            <option value="">Menu 1</option>
-                            <option value="">Menu 2</option>
-                            <option value="">Menu 3</option>
-                        </select>
+                    <li class="menu"><a href="#">Item 1</a>
+                        <ul class="submenu">
+                            <li><a href="#">Sous-item 1</a></li>
+                            <li><a href="#">Sous-item 2</a></li>
+                            <li><a href="#">Sous-item 3</a></li>
+                        </ul>
+                    </li>
                     </li>
                     <li>
                         <select name="page" id="page">
@@ -75,8 +77,8 @@
         <main>
             <img src="images/image1.jpg" alt="image" class="big_image">
             <h2>Up in the Clouds</h2>
-            <p class="legend">On May 6, 2013 by <a href="#">Greg Priday</a> With <a href="#">0</a> Comments - <a href="#">Images,</a><a
-                    href="#"> Uncategorized</a></p>
+            <p class="legend">On May 6, 2013 by <a href="#">Greg Priday</a> With <a href="#">0</a> Comments - <a
+                    href="#">Images,</a><a href="#"> Uncategorized</a></p>
             <section>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At dolores, aperiam delectus sequi ipsam
                     cum
@@ -155,6 +157,7 @@
             </article>
         </footer>
     </div>
+    <script src="challenge_2.js"></script>
 </body>
 
 </html>
